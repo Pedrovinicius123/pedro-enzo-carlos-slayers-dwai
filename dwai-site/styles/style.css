@@ -24,7 +24,7 @@ header{
 }
 
 .main p{
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 
 }
 
@@ -33,7 +33,52 @@ header{
     font-size: 10px;
     text-decoration: none;
     border: 1px solid white;
-    border-radius: 10px;
+    border-radius: 10px
+
+}
+
+.main .figura-1{
+    display: table;
+    position:relative;
+    margin-left: 50px;
+    width: 150px;
+
+}
+
+.main .figura-1 h5{
+    float:left;
+    border: 2px solid;
+    padding:5px 10px 5px 10px;
+    margin-left: 30px;
+    background-color: #FDB32F;
+}
+
+.main .figura-1 img{
+    position: absolute;
+    right: 10px;
+    top: 50px;
+}
+
+.main .figura-2{
+    display:table;
+    position: relative;
+    left: 90%;
+
+}
+
+.main .figura-2 h5{
+    float: right;
+    border: 2px solid;
+    padding: 5px 10px 5px 10px;
+    margin-left: 30px;
+    background-color: #19B100;
+}
+
+.main .figura-2 img{
+    position: absolute;
+    bottom: 50px;
+
+
 }
 
 section p{
@@ -43,6 +88,7 @@ section p{
 
 section a{
     color:#ffff;
+
 }
 
 section hr{
