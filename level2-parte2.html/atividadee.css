@@ -6,12 +6,18 @@
 }
 
 
+.minicabeça img{
+
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
 header{
-
-
     background-color: rgba(63, 63, 245, 0.842);
-
-
+    text-align: center;
 }
 
 p{
@@ -22,6 +28,7 @@ p{
 header img{
     margin-right: 45%;
     margin-left: 20%;
+    display: inline-block;
 }
 
 
@@ -38,6 +45,16 @@ header img{
 
 .information{
     display: inline-block;
+    position: relative;
+    top: -20px;
+}
+
+.information a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ffff;
+
 }
 
 
@@ -136,11 +153,48 @@ section p{
 .praias figure{ 
 
     display: inline-block;
+    width: 200px;
+    height: 200px;
+    padding: 10px
 
 }
 
+
 .praias h3{
 
-    margin: 0px;
+    margin: 0px
+    ;
 
+}
+
+footer{
+    background-color: rgb(72, 118, 247);
+}
+
+.contatos{
+    display: inline-block;
+}
+
+.links{
+    display: inline-block;
+}
+
+.links ul{
+    display: inline-block;
+}
+
+.links p{
+    width: 30%;
+}
+
+.telegram{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+  
+}
+
+.button{
+    background-color: mediumturquoise;
+    text-align: center;
 }
