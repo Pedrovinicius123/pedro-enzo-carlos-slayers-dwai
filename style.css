@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
-Body{
+body{
     font-family: "Sora";
     color: #ffff;
     background-color: #0F315C;
 }
+
 .container{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
+
 header{
     padding-top: 24px;
 }
@@ -20,9 +22,22 @@ main{
     padding-bottom: 100px;
 }
 
+main .conteudo{
+    max-width: 700px;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+main .conteudo h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+
 main .name-figma{
     border: 2px solid black;
-    position: relative;
+    position: absolute;
+    padding: 0.25em 1em;
 }
 
 main .name-figma img{
@@ -31,19 +46,34 @@ main .name-figma img{
 
 main .name-figma.designer{
     background: #FDB32F;
+    top: -50px;
+    left: -50px;
+    color: black;
 }
 
-main .name-figma.designer{
+main .name-figma.designer img{
+    right: -50px;
+    bottom: -25px;
+}
+
+main .name-figma.dev{
+    background: #29973b;
     right: -50px;
     bottom: -50px;
 }
 
-main .name-figma.dev{
-    background: #19B100;
-}
 main .name-figma.dev img{
     left: -50px;
-    top: -50px;
+    top: -25px;
+}
+
+.link{
+    text-decoration: none;
+    color: #ffff;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 2em;
 }
 
 footer{
@@ -63,8 +93,49 @@ footer p strong{
 }
 
 footer address{
-
+    display: table;
+    width: 100%
 }
 
-footer address div{}
-footer section{}
+footer address > div{
+    float: left;
+    width: 30%;
+}
+footer address div .redes-sociais,
+footer address div strong{
+    margin-top: 1em;
+    display: block;
+}
+
+footer address div .redes-sociais a{
+    color: #fff;
+}
+
+footer address div .redes-sociais a:hover{
+    color: #FDB32F;
+}
+
+
+footer section{
+    padding: 1em;
+    text-align: center;
+    border-top: 1px solid #fff;
+    margin-top: 4em;
+}
+
+section .plugs{
+    height: 40px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0F315C;
+  
+    background-image: url(img/vector.png), url(img/vector-2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center left, center right;
+}
+
+section hr{
+    margin-top: 23px;
+    border: 2px solid white;
+}
