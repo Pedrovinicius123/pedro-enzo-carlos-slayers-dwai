@@ -1,39 +1,70 @@
-.minicabeça{
-    border-bottom: 1px solid #ffff;
-    display: inline-block;
-    width: 100%;
-    background-color: rgba(63, 63, 245, 0.842);
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-
-.minicabeça img{
-
-    width: 10px;
-    height: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+body{
+    font-family: "lato", sans-serif;
 
 }
 
 header{
-    background-color: rgba(63, 63, 245, 0.842);
-    text-align: center;
+    display: inline-block;
+    width:100%;
+
+    background-color: #203C86;
+    color: white;
+    
+    font-size: 15px;
+    font-weight:400;
+    
+    padding:10px;
+    border-bottom:2px solid rgb(65, 71, 150);
+}
+
+header small{
+    margin-left:70%;
+    
+}
+
+
+header .social{
+    display:inline-block;
+    margin-left: 10px;
+
+}
+
+header .social img{
+    width:15px;
+    margin-left:10px;
+
+}
+
+menu{
+    margin-top: 0;
+    padding:20px;
+    width: 100%;
+    background-color: #203C86 
+}
+
+menu img{
+    display:inline-block;
+    margin-right: 30%;
+    margin-left:15%;
+
+}
+
+menu nav{
+    font-size: 15px;
+    text-align:center;
+    
+
+}
+
+menu nav a strong{
+    border-bottom: 2px solid;
+    font-weight:600;
 }
 
 p{
     line-height: 30px;
-}
-
-
-header img{
-    margin-right: 45%;
-    margin-left: 20%;
-    display: inline-block;
-}
-
-
-.social{
-    display: inline-block;
 }
 
 
