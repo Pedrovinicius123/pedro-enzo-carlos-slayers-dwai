@@ -1,0 +1,200 @@
+.minicabeça{
+    border-bottom: 1px solid #ffff;
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(63, 63, 245, 0.842);
+}
+
+
+.minicabeça img{
+
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+header{
+    background-color: rgba(63, 63, 245, 0.842);
+    text-align: center;
+}
+
+p{
+    line-height: 30px;
+}
+
+
+header img{
+    margin-right: 45%;
+    margin-left: 20%;
+    display: inline-block;
+}
+
+
+.social{
+    display: inline-block;
+}
+
+
+.minicabeça small{
+    margin-left: 67%;
+    margin-right: 10px;
+}
+
+
+.information{
+    display: inline-block;
+    position: relative;
+    top: -20px;
+}
+
+.information a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ffff;
+
+}
+
+
+
+main h4{
+    margin-bottom: 0%;
+  
+    margin-top: 0px;
+}
+
+.citar{
+    float: right;
+}
+
+
+.linha{
+    background-color: gold;
+    width: 80px;
+    height: 5px;
+}
+
+
+
+.mainInfo{
+    width: 50%;
+    
+}
+
+.container{
+    margin: 0 auto;
+    width: 900px;
+}
+
+
+
+.autora{
+    margin: 0px;
+    display: block;
+    float: right;
+}
+
+.info2 h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+section{
+    display: inline-block;
+}
+
+section p{
+    width: 35%;
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+
+
+.figureI{
+
+    float: right;
+
+}
+
+.figureI figure div{
+
+    margin-left: 20px;
+    margin-right:20px;
+    border-bottom: black 1px solid;
+    border-left: solid 1px black;
+    border-right: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.figureI h3{
+    margin-bottom: 0px;
+    margin-top: -10px;
+}
+
+.locais{
+    margin-top: 100px;
+}
+
+.locais h2{
+    margin-top: 0px;
+}
+
+.praias{
+    margin-left: 150px;
+    
+}
+
+.praias figure{ 
+
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    padding: 10px
+
+}
+
+
+.praias h3{
+
+    margin: 0px
+    ;
+
+}
+
+footer{
+    background-color: rgb(72, 118, 247);
+}
+
+.contatos{
+    display: inline-block;
+}
+
+.links{
+    display: inline-block;
+}
+
+.links ul{
+    display: inline-block;
+}
+
+.links p{
+    width: 30%;
+}
+
+.telegram{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+  
+}
+
+.button{
+    background-color: mediumturquoise;
+    text-align: center;
+}
