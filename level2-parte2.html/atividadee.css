@@ -20,7 +20,7 @@ header{
 }
 
 header small{
-    margin-left:70%;
+    margin-left:77%;
     
 }
 
@@ -39,7 +39,7 @@ header .social img{
 
 menu{
     margin-top: 0;
-    padding:20px;
+    padding:10px;
     width: 100%;
     background-color: #203C86 
 }
@@ -52,14 +52,26 @@ menu img{
 }
 
 menu nav{
-    font-size: 15px;
+    font-size: 20px;
     text-align:center;
+    display: inline-block;
+    position: relative;
+    top: -20px;
     
 
 }
 
+menu nav a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ffff;
+
+}
+
 menu nav a strong{
-    border-bottom: 2px solid;
+    border-bottom: 4px solid #FFC82C;
+    padding:26px;
     font-weight:600;
 }
 
@@ -73,30 +85,42 @@ p{
     margin-right: 10px;
 }
 
-
-.information{
-    display: inline-block;
-    position: relative;
-    top: -20px;
-}
-
-.information a{
-    margin-left: 10px;
-    margin-right: 10px;
-    text-decoration: none;
-    color: #ffff;
-
-}
-
-
-
 main h4{
     margin-bottom: 0%;
-  
     margin-top: 0px;
 }
 
-.citar{
+.container{
+    margin: 0 auto;
+    width: 900px;
+}
+
+.container .citation{
+    margin-bottom: 200px;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.container .citation h2{
+   font-size: 45px; 
+
+}
+
+.container .citation div{
+    margin-top: 0;
+    display:table;
+    float: right;
+}
+
+.container .citation div h4{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 30px;
+    color:rgb(65, 71, 150)
+
+}
+
+.container .citation div small{
     float: right;
 }
 
@@ -110,26 +134,10 @@ main h4{
 
 
 .mainInfo{
-    width: 50%;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
     
-}
-
-.container{
-    margin: 0 auto;
-    width: 900px;
-}
-
-
-
-.autora{
-    margin: 0px;
-    display: block;
-    float: right;
-}
-
-.info2 h2{
-    margin-top: 0px;
-    margin-bottom: 0px;
 }
 
 section{
@@ -139,37 +147,53 @@ section{
 section p{
     width: 35%;
     display: inline-block;
-    font-size: 20px;
 
 }
 
+section div h2{
+    margin-top: 0;
+    margin-bottom:0;
 
+}
+
+section div{
+    color: #203C86;
+
+}
 
 .figureI{
-
     float: right;
 
 }
 
 .figureI figure div{
-
     margin-left: 20px;
     margin-right:20px;
-    border-bottom: black 1px solid;
-    border-left: solid 1px black;
-    border-right: 1px solid black;
-    border-radius: 5px;
+    border-bottom: 1px solid #203C86;
+    border-left: 1px solid #203C86;
+    border-right: 1px solid #203C86;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     padding: 10px;
+    color:#203C86;
 
 }
 
 .figureI h3{
     margin-bottom: 0px;
-    margin-top: -10px;
+    margin-top: 0;
+    font-size:20px;
+    
 }
 
 .locais{
-    margin-top: 100px;
+    margin-top: 200px;
+    margin-left: 100px;
+    color:#203C86;
+}
+
+.locais small{
+    font-weight: 300;
 }
 
 .locais h2{
@@ -177,29 +201,48 @@ section p{
 }
 
 .praias{
-    margin-left: 150px;
+    margin-top: 0;
+    margin-left: 100px;
     
 }
 
 .praias figure{ 
 
     display: inline-block;
-    width: 200px;
-    height: 200px;
-    padding: 10px
+    width: 150px;
+    padding: 10px;
+    margin-left: 10px;
 
 }
 
 
 .praias h3{
+    margin: 0;
 
-    margin: 0px
-    ;
+}
+
+.praias figure img{
+    width: 200px;
 
 }
 
 footer{
-    background-color: rgb(72, 118, 247);
+    background: linear-gradient(130deg, #0D3F82 23.84%, #001736 73.02%);
+    padding-top:30px;
+    padding-left: 300px;
+    color: white;
+}
+
+footer .contatos div img{
+    width: 20px;
+    margin-right: 10px;
+    display:inline-block;
+
+}
+
+footer .contatos div p{
+    display:inline-block;
+
 }
 
 .contatos{
