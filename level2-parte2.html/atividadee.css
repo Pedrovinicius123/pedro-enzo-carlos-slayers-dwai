@@ -169,13 +169,13 @@ section div{
 .figureI figure div{
     margin-left: 20px;
     margin-right:20px;
-    border-bottom: 1px solid #203C86;
-    border-left: 1px solid #203C86;
-    border-right: 1px solid #203C86;
+    border-bottom: 1px solid #2648A1;
+    border-left: 1px solid #2648A1;
+    border-right: 1px solid #2648A1;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     padding: 10px;
-    color:#203C86;
+    color:#2648A1
 
 }
 
@@ -229,46 +229,99 @@ section div{
 footer{
     background: linear-gradient(130deg, #0D3F82 23.84%, #001736 73.02%);
     padding-top:30px;
-    padding-left: 300px;
+    padding-left: 00px;
     color: white;
 }
 
+footer .contatos div{
+    position:relative;
+
+}
+
 footer .contatos div img{
+    position:absolute;
+    top:20px;
+    left: 0;
     width: 20px;
-    margin-right: 10px;
     display:inline-block;
 
 }
 
 footer .contatos div p{
+    width:200px;
     display:inline-block;
+    margin-left:30px;
+    font-weight:300;
 
 }
 
 .contatos{
     display: inline-block;
+    vertical-align:top;
+    margin-left: 100px;
+}
+
+.links-sociais a{
+    position: relative;
+    margin-right: 50px;
+}
+
+.links-sociais a .footer-facebook{
+    width:15px;
 }
 
 .links{
     display: inline-block;
+    width: 400px;
+    margin-left: 100px;
+    
 }
 
 .links ul{
     display: inline-block;
+    padding-left: 0;
+    padding-right: 40px;
+    font-weight: 300;
 }
 
 .links p{
-    width: 30%;
+    width: 70%;
 }
 
 .telegram{
-    width: 200px;
-    height: 50px;
     background-color: white;
-  
+    display:inline-block;
+    width:300px;
+    height: 300px;
+    vertical-align: top;
+    color:black;
+    padding:20px;
+    border-radius: 10px;
+    
 }
 
-.button{
-    background-color: mediumturquoise;
-    text-align: center;
+.telegram .telegram-text p{
+    font-weight:300;
+}
+
+.telegram .telegram-text .button{
+    background-color: #396be9;
+    width: 95%;
+    margin:auto;
+    margin-top:50px;
+    border-radius: 10px 
+}
+.telegram .telegram-text .button img{
+    width:40px;
+    margin:20px;
+}
+
+.telegram .telegram-text .button a strong{
+    display:inline-block;
+    color:white;
+    text-decoration:none;
+    vertical-align:top;
+    margin-top:10px;
+    padding:20px;
+    
 }
