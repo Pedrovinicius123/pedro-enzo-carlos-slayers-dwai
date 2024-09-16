@@ -8,105 +8,111 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="header">
-        <nav>
-            <div class="logo">
-                <img src="./assets/logo-mini.png" alt="">
-                <h2>SISCAMP</h2>
-            </div>
-            <div class="user">
-                <img src="./assets/user-solid.svg" alt="" class="usr-icon">
-                <h3>Yasmim Morais</h3>
-                <img src="./assets/chevron-down-solid.svg" alt="" class="down-arrow">
-            </div>
-        </nav>
-        <nav>
-            <a href="#">
-                <img src="./assets/house-solid.svg" alt="">
-                Tela inicial
-            </a>
-            <a href="#">
-                <img src="./assets/file-regular.svg" alt="">
-                Aulas de Campo
-            </a>
-            <a href="#">
-                <img src="./assets/question-solid.svg" alt="">
-                Ajuda
-            </a>
-            <a href="#">
-                <img src="./assets/right-from-bracket-solid.svg" alt="">
-                Sair
-            </a>
-        </nav>
-    </div>
-    <main>
-        <header>
-            <h1>5</h1>
-            <div>
-                <h2>Aulas de campo</h2>
-                <h4>Últimas aulas previstas</h4>
-            </div>
-        </header>
-        <hr>
-        <section class="agenda">
-            <section class="agenda inline">
+    <div class="container">
+        <div class="header">
+            <nav>
+                <div class="logo">
+                    <img src="./assets/logo-mini.png" alt="">
+                    <h2>SISCAMP</h2>
+                </div>
+                <div class="user">
+                    <img src="./assets/user-solid.svg" alt="" class="usr-icon">
+                    <h3>Yasmim Morais</h3>
+                    <img src="./assets/chevron-down-solid.svg" alt="" class="down-arrow">
+                </div>
+            </nav>
+            <nav>
+                <a href="#">
+                    <img src="./assets/house-solid.svg" alt="">
+                    Tela inicial
+                </a>
+                <a href="#">
+                    <img src="./assets/file-regular.svg" alt="">
+                    Aulas de Campo
+                </a>
+                <a href="#">
+                    <img src="./assets/question-solid.svg" alt="">
+                    Ajuda
+                </a>
+                <a href="#">
+                    <img src="./assets/right-from-bracket-solid.svg" alt="">
+                    Sair
+                </a>
+            </nav>
+        </div>
+        <main>
+            <header>
+                <h1>5</h1>
+                <div>
+                    <h2>Aulas de campo</h2>
+                    <h4>Últimas aulas previstas</h4>
+                </div>
+            </header>
+            <hr>
+            <section class="agenda">
+                <section class="agenda inline">
+                    <img src="./assets/calendar-regular.svg" alt="">
+                    <p class="pbar">26 de outubro de 2024 </p>
+                    <p> Visita ao museu de Natal/RN</p>
+                    <img src="#" class="pointer" alt="">
+                </section>
+                <div class="info">
+                    <div>
+                        <p>Reponsável:</p>
+                        <p>Profa. Maria Aparecida</p>
+                    </div>
+                    <div>
+                        <p>Matrícula</p>
+                        <p>123456789</p>
+                    </div>
+                </div>
+            </section>
+            <section class="agenda">
                 <img src="./assets/calendar-regular.svg" alt="">
                 <p class="pbar">26 de outubro de 2024 </p>
                 <p> Visita ao museu de Natal/RN</p>
                 <img src="#" class="pointer" alt="">
             </section>
-            <div class="info">
+            <section class="agenda">
+                <img src="./assets/calendar-regular.svg" alt="">
+                <p class="pbar">26 de outubro de 2024 </p>
+                <p> Visita ao museu de Natal/RN</p>
+                <img src="#" class="pointer" alt="">
+            </section>
+            <div>
+                <p>Mostrando 3 de 5 aulas</p>
+                <button class="aulas">Ver Aulas anteriores</button>
+            </div>
+        </main>
+        <section class="notificação">
+            <div class="center_noti">
+                <header>
+                    <h2>Você tem 1 nova notificação!</h2>
+                    <hr>
+                </header>
                 <div>
-                    <p>Reponsável:</p>
-                    <p>Profa. Maria Aparecida</p>
+                    <p class="pendencia">Documento pendente</p>
+                    <p class="campo"><a href="#">Clique aqui</a> para preencher o seu documento para a Aula de Campo: Visita ao museu de Natal/RN</a></p>
+                    <p>Prazo de envio:  até 23 de março de 2022</p>
                 </div>
-                <div>
-                    <p>Matrícula</p>
-                    <p>123456789</p>
-                </div>              
+            </div>
+            <div class="see_all">
+                <a href="#"> Ver todas</a>
             </div>
         </section>
-        <section class="agenda">
-            <img src="./assets/calendar-regular.svg" alt="">
-            <p class="pbar">26 de outubro de 2024 </p>
-            <p> Visita ao museu de Natal/RN</p>
-            <img src="#" class="pointer" alt="">
-        </section>
-        <section class="agenda">
-            <img src="./assets/calendar-regular.svg" alt="">
-            <p class="pbar">26 de outubro de 2024 </p>
-            <p> Visita ao museu de Natal/RN</p>
-            <img src="#" class="pointer" alt="">
-        </section>
         <footer>
-            <p>Mostrando 3 de 5 aulas</p>
-            <button>Ver Aulas anteriores</button>
+            <p>Instituto Federal do Rio Grande do Norte - SISCAMP</p>
+            <div class="path">
+                <a href="#">Tela inicial</a>
+                <div class="dot"></div>
+                <a href="#">Aulas de Campo</a>
+                <div class="dot"></div>
+                <a href="#">Ajuda</a>
+                <div class="dot"></div>
+                <a href="#">Suporte</a>
+                <div class="dot"></div>
+            </div>
         </footer>
-    </main>
-    <section>
-        <header>
-            <h2>Você tem 1 nova notificação!</h2>
-            <hr>
-        </header>
-        <div>
-            <h3>Documento pendente</h3>
-            <p><a href="#">Clique aqui</a> para preencher o seu documento para a Aula de Campo: Visita ao museu de Natal/RN</a></p>
-            <p>Prazo de envio:  até 23 de março de 2022</p>
-            <a href="#"> Ver todas</a>
-        </div>
-    </section>
-    <footer>
-        <p>Instituto Federal do Rio Grande do Norte - SISCAMP</p>
-        <div class="path">
-            <a href="#">Tela inicial</a>
-            <div class="dot"></div>
-            <a href="#">Aulas de Campo</a>
-            <div class="dot"></div>
-            <a href="#">Ajuda</a>
-            <div class="dot"></div>
-            <a href="#">Suporte</a>
-            <div class="dot"></div>
-        </div>
-    </footer>
+    </div>
 </body>
 </html>
