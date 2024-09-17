@@ -176,6 +176,38 @@ main .pendencies .aulas{
     border-radius: 10px;
 }
 
+.main-login{
+    background-color: #f1f1f1;
+    box-shadow:none;
+    position:relative;
+    top:100px;
+    height:100px;
+}
+
+.main-login .logo{ 
+    position:relative;   
+    top:-150px;
+    right:30px;
+    border: 2px solid red;
+    width:1000px;
+    height:400px
+}
+
+.main-login .logo div{
+    float:right;
+}
+
+.main-login .logo div .sigla-completa{
+    float:left;
+    width:200px;
+    text-align:left;
+}
+
+.main-login .logo h1{
+    float:left;
+    margin-bottom: 10px;
+}
+
 .agenda{
     padding:0;
     font-size:15px;
