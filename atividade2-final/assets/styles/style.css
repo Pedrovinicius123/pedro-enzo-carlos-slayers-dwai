@@ -103,7 +103,7 @@ nav a img{
 
 nav a:last-child img {
     max-width:13px;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 nav a:last-child{
@@ -112,7 +112,7 @@ nav a:last-child{
     padding-right: 20px;
     border: 1px solid #dddddd;
     border-radius: 10px;
-    margin-left: 54%;
+    margin-left:69%;
 
 }
 main{
@@ -151,13 +151,39 @@ main header div h4{
     font-weight:300
 }
 
+main .pendencies{
+    border-top: 2px solid #ccc;
+    padding: 20px;
+    width:90;
+    
+}
+
+main .pendencies p{
+    margin-left: 20px;
+    width:200px;
+    display:inline-block
+    
+}
+
+main .pendencies .aulas{
+    display:inline-block;
+    margin-left: 250px;
+    background-color: #12B76A;
+    color:white;
+    height: 40px;
+    width:200px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
 .agenda{
-    padding:20px;
+    padding:0;
     font-size:15px;
 }
 
 .agenda img{
     width:10px;
+    margin-left: 20px;
     display:inline-block
 }
 .agenda p{
@@ -165,6 +191,27 @@ main header div h4{
     padding-left:10px;
     padding-right:10px;
     vertical-align:baseline;
+}
+
+.agenda .info{
+    background-color: #f1f1f1;
+}
+
+.agenda .info div{
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.agenda .info .vertical{
+    height: 50px;
+    border-left: 3px solid #a1a1a1;
+}
+
+.agenda .info p{
+    display:block;
+    padding-left:20px;
+    padding-right:20px
 }
 
 .inline{
@@ -176,25 +223,20 @@ main header div h4{
 
 }
 
-.aulas{
-    margin-left: 70%;
-    background-color: #027A48;
-    color:white;
-    height: 40px;
-    border: 1px solid;
-    border-radius: 3%;
+.agenda .pointer{
+    width:20px;
+    margin-left: 250px;
 }
 
 .notificação{
     background-color: #FFFFFF;
     width: 30%;
-    height: 300px;
+    height: 370px;
     border-radius: 2%;
-    display: inline-block;
     margin-top: 100px;
     float: right;
     margin-right:350px;
-    padding: 30px;
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.432);
     
 
 }
@@ -204,8 +246,9 @@ main header div h4{
     text-align: center;
     width: 30%;
     height: 30px;
-    margin-left: auto;
+    margin-left: 350px;
     padding-top: 5px;
+    border-radius: 5px;
 }
 
 .see_all a{
@@ -213,7 +256,7 @@ main header div h4{
     color: #12B76A;
 }
 
-.pendencia{
+.pendency-doc{
     color: #12B76A;
 
 }
@@ -222,9 +265,26 @@ main header div h4{
     width: 70%;
 }
 
-.center_notic{
+.center_noti{
+    display:table;
     margin-left: auto;
     margin-right: auto;
+}
+.center_noti div p{
+    margin-top:0
+}
+
+.center_noti header h2{
+    margin-left: 30px;
+}
+
+.center_noti div{
+    padding:30px
+}
+
+.center_noti div a img{
+    width:10px;
+    float:right;
 }
 
 footer {
